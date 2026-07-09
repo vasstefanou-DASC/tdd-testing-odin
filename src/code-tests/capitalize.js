@@ -1,3 +1,6 @@
 export function capitalize(s) {
-    return s.at(0).toUpperCase() + s.substring(1);
+    if (!s.trim()) {
+        return "no string found";
+    }
+    return s.at(0).toUpperCase() + s.substring(1).toLowerCase();
 }
