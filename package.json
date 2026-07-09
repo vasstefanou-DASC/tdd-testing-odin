@@ -1,0 +1,38 @@
+{
+  "name": "template-repo-simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack serve --config webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasstefanou-DASC/template-repo-simple.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/vasstefanou-DASC/template-repo-simple/issues"
+  },
+  "homepage": "https://github.com/vasstefanou-DASC/template-repo-simple#readme",
+  "devDependencies": {
+    "@eslint/css": "^1.4.0",
+    "@eslint/js": "^10.0.1",
+    "@eslint/json": "^2.0.1",
+    "css-loader": "^7.1.4",
+    "eslint": "^10.6.0",
+    "globals": "^17.7.0",
+    "html-webpack-plugin": "^5.6.7",
+    "prettier": "3.9.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.108.4",
+    "webpack-cli": "^7.2.1",
+    "webpack-dev-server": "^6.0.0",
+    "webpack-merge": "^6.0.1"
+  }
+}
